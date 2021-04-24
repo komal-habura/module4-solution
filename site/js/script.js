@@ -1,8 +1,10 @@
-var array=["j","k","j"]
+
+var array=["john","k","j"]
 for(var i=0;i<array.length;i++){
-    if(array[i]=="j"){
-        console.log("Goodbye JSomeName");
+    var str=array[i];
+    if(str[0]=="j"){
+        console.log("Goodbye "+array[i]);
     }else{
-        console.log("Hello SomeName");
+        console.log("Hello "+array[i]);
     }
 }
